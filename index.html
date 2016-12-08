@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>See What is Hidden in Envelope</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<style>
+.jumbotron p {
+    margin-bottom: -10px;}
+div p:not(:first-child)
+{margin-top: -11px;}
+
+#readMore { cursor: pointer; cursor: hand; }
+
+#happy {
+    width: 265%;
+    height: 170px;
+    outline: 15px solid red;
+    -webkit-animation: mymove 5s infinite; /* Chrome, Safari, Opera */
+    animation: mymove 5s infinite;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes mymove {
+    50% {outline-color: blue;}
+}
+
+/* Standard syntax */
+@keyframes mymove {
+    50% {outline-color: blue;}
+}
+</style>
+<script>
+$(document).ready(function(){
+$("#zero").hide();
+$("#one").hide();
+$("#two").hide();
+$("#three").hide();
+$("#four").hide();
+var count=0;
+
+$( "#readMore" ).click(function() {
+
+if(count>=0 && count<5)
+{
+$("#readMore").hide();
+
+if(count==0)
+{
+$("#zero").show();
+$("#one").hide();
+$("#two").hide();
+$("#three").hide();
+$("#four").hide();
+}
+if(count==1)
+{
+$("#zero").show();
+$("#one").show();
+$("#two").hide();
+$("#three").hide();
+$("#four").hide();
+}
+if(count==2)
+{
+$("#zero").show();
+$("#one").show();
+$("#two").show();
+$("#three").hide();
+$("#four").hide();
+}
+if(count==3)
+{
+$("#zero").show();
+$("#one").show();
+$("#two").show();
+$("#three").show();
+$("#four").hide();
+}
+if(count==4)
+{
+$("#zero").show();
+$("#one").show();
+$("#two").show();
+$("#three").show();
+$("#four").show();
+}
+
+$("#readMore").show();
+ 
+}
+ count++;
+ if(count>5)
+{
+$("#readMore").html('<br/><h1 id="happy" style="font-size:100px;font-family:Comic Sans MS;white-space:nowrap;">Happy New Year<sup><span class="glyphicon glyphicon-star" style="font-size:10px;"></span></sup></h1>');
+}
+});
+
+
+});
+document.addEventListener("contextmenu", function(e){
+    e.preventDefault();
+alert('Want this code ,Then subscribe to https://cprograms4future.blogspot.in and then get the code through mail');
+}, false);
+$(document).keydown(function(event){
+    if(event.keyCode==123){
+alert('Want this code ,Then subscribe to https://cprograms4future.blogspot.in and then get the code through mail');
+    return false;
+   }
+else if(event.ctrlKey && event.shiftKey && event.keyCode==73){   
+alert('Want this code ,Then subscribe to https://cprograms4future.blogspot.in and then get the code through mail');     
+      return false;  //Prevent from ctrl+shift+i
+   }
+});
+</script>
+</head>
+<body>
+  
+<div class="container jumbotron" id="mainDiv">
+  <div class="row">
+    <div class="col-sm-4 col-sm-offset-1">
+      <h4 style="color:blue;">Wanna See hidden message...</h4>
+  <p>|-|</p>
+  <p>|-|</p>
+<p class="glyphicon glyphicon-envelope"><span style="margin-left:5px;font-size:13px;white-space:nowrap;">climb down</span></p>
+  <p>|-|</p>
+  <p>|-|</p>
+  <p id="firstLast">|-|</p>
+  
+  <div id="zero">
+    <p>|-|</p>
+  <p>|-|</p>
+<p class="glyphicon glyphicon-envelope"><span style="margin-left:5px;font-size:13px;white-space:nowrap;">What r u waiting for? climb down</span></p>
+  <p>|-|</p>
+  <p>|-|</p>
+  <p id="secondLast">|-|</p></div>
+  
+  <div id="one">
+    <p>|-|</p>
+  <p>|-|</p>
+<p class="glyphicon glyphicon-envelope"><span style="margin-left:5px;font-size:13px;white-space:nowrap;">AH HO Still not reached.Climb down</span></p>
+  <p>|-|</p>
+  <p>|-|</p>
+  <p id="thirdLast">|-|</p></div>
+  
+   <div id="two">
+    <p>|-|</p>
+  <p>|-|</p>
+<p class="glyphicon glyphicon-envelope"><span style="margin-left:5px;font-size:13px;white-space:nowrap;">You need to strive hard to complete what you have started.Please climb down</span></p>
+  <p>|-|</p>
+  <p>|-|</p>
+  <p id="fourthLast">|-|</p></div>
+  
+   <div id="three" >
+    <p>|-|</p>
+  <p>|-|</p>
+<p class="glyphicon glyphicon-envelope"><span style="margin-left:5px;font-size:13px;white-space:nowrap;">Rome is not built in one day. Cant you just do a simple thing to climb down</span></p>
+  <p>|-|</p>
+  <p>|-|</p>
+  <p id="fifthLast">|-|</p></div>
+     <div id="four">
+     <p>|-|</p>
+  <p>|-|</p>
+  <p class="glyphicon glyphicon-envelope"><span style="margin-left:5px;font-size:13px;white-space:nowrap;">  One more step finally.</span></p>
+  <p>|-|</p>
+  <p>|-|</p>
+  <p id="sixthLast">|-|</p></div>
+
+  
+  
+  <div id="readMore" style="color:blue;margin-top:5px;">Climb Down...</divx>
+    </div>
+    
+    
+
+  </div>
+</div>
+<br/>
+<br/>
+<div style="float:right"><span style="font-size:10px">Done by Mahidhar</span></div></br>
+<div style="float:right"><span style="font-size:9px">sorry for disabling F12 and right click on this page</span></div><br/>
+
+</body>
+
+</html>
